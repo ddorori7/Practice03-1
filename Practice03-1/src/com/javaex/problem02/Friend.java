@@ -8,7 +8,11 @@ public class Friend {
 
     
     //필요한 메소드 작성
-    
+    Friend(String name, String hp, String school) {
+    	this.hp = hp;
+    	this.name = name;
+    	this.school = school;
+    }
     
     
     public void showInfo(){
